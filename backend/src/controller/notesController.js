@@ -2,7 +2,7 @@ import Note from "../models/Note.js";
 
 export async function getAllNotes(_, res) {
   try {
-    const notes = await Note.find().sort({ createdAt: -1 }); //newest first
+    const notes = await Note.find().sort({ createdAt: -1 }); //newest first sorted
     res.status(200).json(notes);
   } catch (error) {
     console.error("error in getAllNotes route", error);
@@ -70,3 +70,6 @@ export async function deleteNote(req, res) {
     res.status(500).json({ message: "Internal server error" });
   }
 }
+
+
+

@@ -1,5 +1,6 @@
-import express from "express";
 import dotenv from "dotenv";
+dotenv.config();
+import express from "express";
 import cors from "cors";
 
 import { connectDB } from "./config/db.js";
@@ -7,7 +8,6 @@ import notesRoutes from "./routes/notesRoutes.js";
 import rateLimiter from "./middleware/rateLimiter.js";
 
 const app = express();
-dotenv.config();
 // console.log(process.env.MONGO_URI);
 const port = process.env.PORT || 3000;
 
