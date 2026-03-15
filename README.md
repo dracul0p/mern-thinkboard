@@ -47,5 +47,13 @@ npm run dev
 cd frontend
 npm install
 npm run dev
+```
+
+---
+
+##NOTES LINK 
+[Open MERN ThinkBoard Notes](https://app.eraser.io/workspace/GlhY2F7ltehsjZ2z9phZ)
+
+
 
 
