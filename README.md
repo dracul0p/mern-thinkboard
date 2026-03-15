@@ -54,6 +54,9 @@ npm run dev
 ##NOTES LINK 
 [Open MERN ThinkBoard Notes](https://app.eraser.io/workspace/GlhY2F7ltehsjZ2z9phZ)
 
+##Deployed Link
+[note app](https://mern-thinkboard-krd7.onrender.com)
+
 
 
 
